@@ -18,7 +18,7 @@
 # Installs mariadb-server, creates mythconverg database and sets daily backup.
 # Installs mythweb
 # setups mythtv user for running mythbackend
-# setups various directories on the file system for recordings etc. uses /srv/mythtv
+# setups various directories on the file system for recordings etc. uses /var/lib/mythtv
 # setup logging with rotation
 # setup systemd mythtv-backend.service file
 # Install xmltv for external program data e.g. Schedules Direct with tvgrab_zz_sdjson
@@ -42,7 +42,7 @@
 mythtv_git_directory=/tmp/build
 mythtv_git_branch=fixes/31   # just use fixes/31, it is ok to use this for mythtv 30 as well as mythtv 31
 mythtv_password=mythtv    #if changed need to manually update /etc/apache2/sites-available/mythweb.conf
-mythtv_storagegroup_path=/srv/mythtv/ # using /srv/mythtv in preference to /var/lib/mythtv/,
+mythtv_storagegroup_path=/var/lib/mythtv/ # using /var/lib/mythtv in preference to /srv/mythtv/,
 mythtv_storagegroups="banners coverart fanart recordings streaming videos bare-client db_backups  livetv  screenshots  trailers music musicart"
 php_version="7.3" # this is to allow for easy change
 mythweb_max_input_vars=30000 # this increases number of channels to around  1800 over all videosources

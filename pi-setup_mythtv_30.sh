@@ -2,12 +2,12 @@
 
 # Last Modified 10 May 2020
 
-# Script to setup MythTV 31 for Raspberry Pi under Raspbian Buster
+# Script to setup MythTV 30 for Raspberry Pi under Raspbian Buster
 # runs from console using eglfs for best performance.
 # very little error checking
 
 #The script does the following:
-# sets apt repository for mythtv-light fixes/31
+# sets apt repository for mythtv-light fixes/30
 # installs mythtv-light
 # default sets Raspberry Pi configuration, boot to console, wait for network, use vc4-fkms driver, ssh enabled, gpu_mem=256.
 # Options to install mythplugins, disable ssh,install scripts for mythbackend (run seperately).
@@ -17,12 +17,12 @@
 # Globals
 
 #mythtv-light version
-MYTHTV_LIGHT_VERSION="deb http://dl.bintray.com/bennettpeter/deb/ buster myth31"
+MYTHTV_LIGHT_VERSION="deb http://dl.bintray.com/bennettpeter/deb/ buster myth30"
 MYTHTV_LIGHT_KEY="https://bintray.com/user/downloadSubjectPublicKey?username=bintray"
 MYTITLE="MythTV Setup for Raspberry Pi"
 
 # my pi-utils repository
-PI_UTILS_REPO="https://github.com/MikeB2013/pi-utils.git"
+PI_UTILS_REPO="https://github.com/TechnoNerdDad/pi-utils.git"
 
 # for whiptail items 0=Yes, 1=No -1=error (not currently checked)
 DEFAULT_INSTALL=0

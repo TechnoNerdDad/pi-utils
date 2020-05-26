@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script to run mythtv-setup from version 31 on Raspberry Pi under Raspian Buster using EGLFS
+# script to run mythtv-setup from version 30 on Raspberry Pi under Raspian Buster using EGLFS
 
 # Last Modified 22 March 2020
 

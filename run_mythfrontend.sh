@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script to run mythfrontend from version 31 on Raspberry Pi under Raspian Buster using EGLFS
+# script to run mythfrontend from version 30 on Raspberry Pi under Raspian Buster using EGLFS
 # can be added to .bashrc to allow autostart of mythfrontend on boot
 
 # Last Modified 7 April 2020
